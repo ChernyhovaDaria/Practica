@@ -1,33 +1,95 @@
-.bonner {
+.page{
     width: 100%;
-    height: 800px;
-    background-image: url(https://cdn.pixabay.com/photo/2016/01/09/18/27/camera-1130731_960_720.jpg);
-    background-size: cover;
-    opacity: 0.5;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-shadow: -6px 6px 4px rgb(172, 169, 169);
+    color: rgb(13, 13, 14);
 }
-
-.content {
+.line{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.content{
     width: 60%;
-    height: 800px;
-    margin-left: 20%;
-    margin-right: 20%;
-
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    box-sizing: border-box;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
-.menu {
+#header{
+   background-image:url(img/fon-meny.webp);
+   background-size:cover;
+}
+.nav{
     width: 100%;
-    height: 35px;
-    padding-top: 20px;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    box-sizing: border-box;
 }
+.nav__link{
+    padding-top: 2.5%;
+    padding-right: 2.5%;
+    color: rgb(13, 13, 14);
+    font-size: 100%;
+    font-weight: bolder;
+}
+.caption{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 250%;
+    font-weight: bolder;
+}
+#biography{
+    background-color: #dbe9e3;
+    height: 800px;
+ }
+ .rubric{
+    height: 7%;
+    font-size: 180%;
+    align-self:center;
+    font-weight: bold;
 
-.navigation {
-    display: inline;
-    padding: 30px 50px 10px 10px;
-    font-size: 30px;
-}
+ }
+ .text{
+     width: 100%;
+     height: 20%;
+     font-size: 90%;
+ }
+ .paragraph{
+     padding-bottom: 2%;
+ }
+ .photo{
+    height: 100%;
+    object-fit: cover;
+    align-self: center;
+ }
+ #skills{
+    background-color: rgb(75, 42, 165); 
+ }
+ #sides{
+    background-color: rgb(178, 214, 48); 
+ }
+ #work{
+    background-color: rgb(165, 42, 155); 
+ }
+ #contacts{
+    background-color: rgb(197, 98, 41); 
+ }
 
-.navigation_ref {
-    font-size: 30px;
-}
-     
-     
- 
+
+    
