@@ -58,12 +58,12 @@
     background-color: #dbe9e3;
     height: 800px;
  }
- .rubric{
+ .rubric{   
     height: 7%;
     font-size: 180%;
     align-self:center;
     font-weight: bold;
-
+    padding-bottom: 3%;
  }
  .text{
      width: 100%;
@@ -79,17 +79,96 @@
     align-self: center;
  }
  #skills{
-    background-color: rgb(75, 42, 165); 
+    background-color: #dbe9e3;
+    height: 300px;
+ }
+ .block-skills{
+    height: 93%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .skill{
+     background-color: #dbe9e3;
+     padding: 2%;
+     border: 1px solid black;
+     border-radius: 20px;
+     background-color: #F9DA8B;
+     font-weight: bold;
  }
  #sides{
-    background-color: rgb(178, 214, 48); 
+    background-color: #dbe9e3;
+    height: 250px;
  }
+ .list{
+    height: 30%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+ }
+li{
+    height: 70%;
+}
+ li:before {
+    content: "✍";  
+  }
  #work{
-    background-color: rgb(165, 42, 155); 
+    background-color: #dbe9e3;
+    height: 300px;
  }
+ .ctroca-portvolio{
+     height: 70%;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: space-between;
+ }
+ .portvolio{
+     width: calc(100%/3.2);
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     box-sizing: border-box;
+     padding-top: 1%;
+     padding-bottom: 1%;
+}
+.img-work{
+    width: 100%;
+    height: 85%;
+    background-color: rgb(153, 153, 153);
+    border-radius: 5%;
+}
  #contacts{
-    background-color: rgb(197, 98, 41); 
+     background-image:url(img/fon-meny.webp);
+     background-size:cover;
+      background-position: bottom;
  }
+ .icons{
+     width: 80%;
+     height: 80%;
+ }
+ .blok-content{
+     display: flex;
+     flex-direction: row;
+ }
+ .icons-content{
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+ }
+ .telephon{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-top: 2%;
+ }
+ 
 
 
     
